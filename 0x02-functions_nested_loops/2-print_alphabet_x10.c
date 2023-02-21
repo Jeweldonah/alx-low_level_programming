@@ -1,11 +1,9 @@
 #include "main.h"
+
 /**
- * print_alphabet_x10 - Prints the alphabet
- * Description: prints alphabet 10 times
- *
- * Return: 0
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 	char la;
 
