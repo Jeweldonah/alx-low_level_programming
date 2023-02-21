@@ -5,17 +5,12 @@
  *
  * Return: 0
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
-	int i;
-	char c;
+	char la;
 
-	for (i = 0; i <= 9; i++)
-	{
-		for (c = 'a'; c <= 'z'; ic++)
-		{
-		_putchar(c);
-		}
+	for (la  = 'a'; la <= 'z'; la++)
+		_putchar(la);
+
 	_putchar('\n');
-	}
 }
