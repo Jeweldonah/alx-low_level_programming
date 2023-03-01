@@ -1,13 +1,14 @@
 #include "main.h"
+
 /**
- * _strcpy - function that copies a string
- * @src: string to be copied
- * @dest: string destination
- * @n: number
+ * _strncpy -  function that copies a string..
+ * @src: cadena a copiar
+ * @dest: destino de la cadena.
+ * @n: number.
  * Return: void
  */
 
-char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
